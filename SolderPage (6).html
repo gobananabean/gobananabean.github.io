@@ -1,0 +1,128 @@
+<!doctype html>
+<html> 
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<style>
+	.nav {
+		background-color:#ffffff;
+		font-family: 'Arial',serif;
+		color:#000000;
+		list-style:none;
+		text-align:right;
+		padding: 20px 0 20px 0;
+	}
+	.nav > li {
+		display:inline-block;
+		padding; 0 25px 0 25px;
+		float:right;
+		font-size: 18px;
+	}
+	.nav > li > a {
+		text-decoration: none;
+		color:#000000;
+		padding: 0 25px 0 25px;
+		border: none;
+  		text-align: center;
+  		font-size: 16px;
+  		margin: 4px 2px;
+  		opacity: 1;
+  		transition: 0.4s;
+	}
+	.nav > li > a:hover {
+		opacity: 0.2;
+	}
+	.nav > li > a:active {
+  		background-color: white;
+  		box-shadow: 0 4px #666;
+ 		 transform: translateY(4px); 
+ 		}
+	.logo {
+		color:#000000;
+		font-family: 'Comfortaa';
+		float:left;
+		padding-left:25px;
+		font-size:30px;
+		font-weight:bold;
+	}
+	.logo > a {
+		text-decoration:none;
+		color:#000000;
+		font-family: 'Comfortaa';
+	}
+	.main { 
+		color:#f8a978;
+		font-size: 50px;
+		font-family: 'Comfortaa';
+		text-align:left;
+		margin-left: 400px;
+}
+	.soldering {
+		color:black;
+		font-size: 18px;
+		padding: 20px;
+		border: black 3px solid;
+		margin-left:350px;
+		margin-right: 350px;
+		text-align:center;
+	}
+	<------why isn't this centering below?------>
+	.transparentsolder {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	* {
+		text-align:center;
+		font-family: 'Arial',serif;
+	}
+	li.navbackground {
+		background-image: url(https://cdn.pixabay.com/photo/2019/08/23/20/06/landscape-4426419_1280.jpg)
+	}
+		/*MEDIA QUERIES*/
+	 @media screen and (max-width:800px) {
+	 	.main {
+	 	    margin-left:10px;
+	 	}
+	 	.soldering {
+	 	    margin-left:10px;
+	 	    margin-right:10px;
+	 	}
+	 }
+
+</style>
+</head>
+<body> 
+	<ul class="nav">
+			<div class="logo"> 
+					<a href="StainedGlassPage.html">Through the <br>
+					Looking Glass</a>
+			</div>
+  		<li class="navbackground"><a href="PatternPage.html">Pattern</a></li>
+  		<li class="navbackground"><a href="GlassPage.html">Glass</a></li>
+  		<li class="navbackground"><a href="SolderPage.html">Solder</a></li>
+  		<li class="navbackground"><a href="FinishedProductsPage.html">Finished Products</a></li>
+  		<li class="navbackground"><a href="HistoryPage.html">History</a></li>
+  		 </ul>
+</div>
+
+	<h1 class="main"> Solder </h1>
+	<p class="soldering"> Soldering stained glass is one of the last steps in the process. It allows for all individual pieces to stay together. The solder acts as an adhesive. Once it all comes together, the stained glass piece is finished and can be hung up and enjoyed! </p>
+
+<div>
+	 <p> There are different types of solders that possess various amounts of lead and tin. </p>
+
+	<ol>
+		<li> Lead-free solder (this is mostly used for jewelry making) </li>
+		<li> 60/40 (this is 60% Tin and 40% Lead) </li>
+		<li> 50/50 (this is an even amount of Tin and Lead) </li> </p>
+ </div>
+ <p>
+	<img class="transparentsolder" src="transparentsolder.png" width="390" height="280"> </p>
+<br>
+
+<p class="photocred" style="font-style: italic;"> Photo credit to Pixabay https://pixabay.com/photos/soldering-iron-solder-1038540/</p>
+</body>
+
+
+
+</html>
